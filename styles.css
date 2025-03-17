@@ -1,0 +1,271 @@
+/* Global Styles */
+body {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #4F46E5;
+    padding: 20px 80px;
+    color: white;
+    
+    
+}
+ .nav{
+    font-family: Inter;
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero-image{
+    width:1440px;
+    height:700px;
+}
+
+/* Hero Section */
+.hero-text-container {
+    width: 630px;
+    height: 306px;
+    background: linear-gradient(90deg, #4DCA79, #1CBDDD );
+    padding: 24px 40px 32px 40px;
+    gap: 20px;
+    position: absolute;
+    top: 354px;
+    left: 80px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.cta-button {
+    background-color: #FF7F32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #E66A28;
+}
+
+
+
+/* Services Section */
+.services {
+    padding: 50px 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.service-box {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.service-box h3 {
+    color: #4F46E5;
+}
+
+.learn-more {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* FAQ Section 
+.faq {
+    background: #F9F9F9;
+    padding: 50px 80px; 
+}*/
+.faq {
+    width: 846px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.faq h3 {
+    color: #4F46E5;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family:poppins;
+
+}
+
+.faq-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+.faq-question1 {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-family:inter;
+    font-weight: bold;
+    color: #4F46E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+}
+
+.faq-answer {
+    width:798px;
+    height:60px;
+    line-height: 30px;
+    display: none;
+    padding: 10px;
+    font-family: inter;
+    font-size: 16px;
+    color: #555;
+    letter-spacing: 0%;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
+}
+
+
+.faq h3 {
+    text-align: center;
+}
+
+.faq-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.faq-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+    color: #4F46E5;
+    width: 389px;
+    height: 33px;
+    text-align: center; /* Centering the title */
+    margin: 0 auto 20px auto; /* Center with spacing */
+}
+
+/* Footer */
+.footer {
+    background-color: #4F46E5;
+    color: white;
+    /*padding: 50px 80px;*/
+
+        width: 1440px;
+        height: auto; /* Hug content */
+        padding: 40px 80px 20px 80px;
+        background-color: #4F46E5;
+        /*display: flex;*/
+        justify-content: space-between;
+        /*align-items: flex-start;*/
+        gap: 40px; /* Space between footer sections */
+        position: absolute;
+        top: 2319px; /* Adjusted position */
+    
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    max-width: 400px;
+    flex: 1;
+    margin-right: 200px;
+}
+
+.footer-left img {
+    height: 40px;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-links h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    font-size: 14px;
+}
